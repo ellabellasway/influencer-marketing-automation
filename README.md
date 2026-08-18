@@ -10,6 +10,13 @@ the influencer program grind end to end: one finds and ranks creators by what
 they actually earn, the other tells you who's worth paying, checks you're not
 about to cold-pitch someone you're already talking to, and drafts the outreach.
 
+![Dashboard ranking creators by engagement, not follower count](docs/dashboard-screenshot.jpg)
+
+*Sample run: @quietbuilder (15.4K followers, 10.87% engagement) outranks
+@pyautomate (91.5K followers, 2.58%). Follower count alone would have missed
+the better placement entirely — this is exactly the trap the vetting rubric
+in `creator-partnerships` exists to catch.*
+
 ```
 creator-scout           →   creator-partnerships
 find + rank + contact         vet + spend decision + outreach + tracking

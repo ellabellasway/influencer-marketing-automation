@@ -1,14 +1,14 @@
-# Creator Signal
+# Influencer Marketing Automation
 
-Follower count is the least reliable number in creator marketing. A 300K-follower
-account with a dead feed will out-rank, on paper, a 30K account whose last ten
-posts actually landed, and that's exactly the number most sponsorship budgets
-get spent on.
+Follower count is the least reliable number in influencer marketing. A
+300K-follower account with a dead feed will out-rank, on paper, a 30K account
+whose last ten posts actually landed, and that's exactly the number most
+sponsorship budgets get spent on.
 
-Creator Signal is two [Claude Code](https://claude.com/claude-code) skills that
-fix that: one finds and ranks creators by what they actually earn, the other
-tells you who's worth paying, checks you're not about to cold-pitch someone
-you're already talking to, and drafts the outreach.
+This is two [Claude Code](https://claude.com/claude-code) skills that automate
+the influencer program grind end to end: one finds and ranks creators by what
+they actually earn, the other tells you who's worth paying, checks you're not
+about to cold-pitch someone you're already talking to, and drafts the outreach.
 
 ```
 creator-scout           →   creator-partnerships

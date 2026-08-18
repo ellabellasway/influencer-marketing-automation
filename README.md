@@ -14,12 +14,12 @@ about to cold-pitch someone you're already talking to, and drafts the outreach.
 
 *Sample run: @quietbuilder (15.4K followers, 10.87% engagement) outranks
 @pyautomate (91.5K followers, 2.58%). Follower count alone would have missed
-the better placement entirely — this is exactly the trap the vetting rubric
+the better placement entirely, and that's exactly the trap the vetting rubric
 in `creator-partnerships` exists to catch.*
 
 ```
-creator-scout           →   creator-partnerships
-find + rank + contact         vet + spend decision + outreach + tracking
+creator-scout                      creator-partnerships
+find + rank + contact       then   vet + spend decision + outreach + tracking
 ```
 
 ## Why two skills instead of one
@@ -41,22 +41,24 @@ and sort. Instagram and TikTok are both verified end to end; adding a platform
 means confirming field paths on one real account first (see
 `creator-scout/reference/platforms.md`).
 
-Requires the **ScrapeCreators** MCP connector. No API key lives in this repo,
-the connector holds credentials server-side.
+**Setup**
 
-```bash
-cp -R creator-scout ~/.claude/skills/
-```
-
-Then in Claude Code: `/creator-scout`, or just ask for it in a normal message.
-Claude Code matches what you're asking against each skill's description, not
-only the exact slash-command name.
+1. Attach the **ScrapeCreators** MCP connector in Claude Code (Settings,
+   then Connectors). No API key lives in this repo, the connector holds
+   credentials server-side.
+2. Copy the skill into your skills folder:
+   ```bash
+   cp -R creator-scout ~/.claude/skills/
+   ```
+3. In Claude Code, run `/creator-scout`, or just ask for it in a normal
+   message. Claude Code matches what you're asking against each skill's
+   description, not only the exact slash-command name.
 
 ## creator-partnerships
 
 The vetting rubric, spend-decision rule, first-touch outreach template, launch
 checklist, and attribution method for actually running a paid creator program.
-No API connector, just process plus a YouTube median-views script
+No API connector required, just process plus a YouTube median-views script
 (`creator-partnerships/scripts/measure_youtube_medians.py`).
 
 ```bash
